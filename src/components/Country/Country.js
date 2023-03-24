@@ -5,9 +5,9 @@ const Country = (props) => {
     // console.log(props)
     return (
         <div className='country'>
-            <h2>Country Name:{props.name} </h2>
-            <p>Population:{props.population} </p>
-            <p><small>Area: {props.area}</small></p>
+            <h2>Country Name:{props.country.name.common} </h2>
+            <p>Population:{props.country.population} </p>
+            <p><small>Area: {props.country.area}</small></p>
         </div>
     );
 };
